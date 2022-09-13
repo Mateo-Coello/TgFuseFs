@@ -16,7 +16,7 @@ by Davoli et al. being tested under Ubuntu and this implementation being tested 
    For instance for a mexican phone number the script will be executed as follows: ***python3 mktgfs.py +524831212891***.
 4. Create an empty directory to which the file system will be mounted, for instance: ***mkdir mnt***.
 5. Execute tne script *tgfuse.py* with the directory name created and your phone number as arguments.
-   For instance: ***python3 tgfuse.py mnt +524831212891***. Dont close the terminal after executing 
+   For instance: ***python3 tgfuse.py mnt +524831212891***. Do not close the terminal after executing 
    the script as this maintains the connection of the client with Telegram's API.
 
 ### Functionalities
