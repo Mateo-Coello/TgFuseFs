@@ -3,7 +3,7 @@
 This project was implemented following the guide developed by Davoli, Sbaraglia, Lodi & Maffei from the University of Bolognia. The
 guide was introduced as a way for students to apply theoretical concepts from an operating systems class specifically a file system.
 The implmentation was made using Python 3.10, pyfuse 3.2.1 (fuse bindings for python), asyncio 3.4.3 (python library for asynchronous
-programming) and, telethon 1.25.0 (Telegram's API for python). The report of this project explains the basic notions of a file system and
+programming) and, telethon 1.24.0 (Telegram's API for python). The report of this project explains the basic notions of a file system and
 comments on the implementation aspects of the TgFuseFs. The steps to initialize the file system are both presented in the project report
 and in the demo video of the implementation. Recall that this implementation only works for distributions of Linux, with the one developed
 by Davoli et al. being tested under Ubuntu and this implementation being tested under Arch Linux. 
@@ -20,7 +20,7 @@ by Davoli et al. being tested under Ubuntu and this implementation being tested 
    the script as this mantains the connection of the client with Telegram's API.
 
 ### Functionalities
-Watch the demo video of the implementation (https://youtu.be/L7njmKKhQvs) to know the functionalities of the file system. Only the commands presented and *cp* are available , the commnad *mv* will not work but could be implemented as well.
+Watch the demo video of the implementation (https://youtu.be/L7njmKKhQvs) to know the functionalities of the file system. Only the commands presented and *cp* are available , the commnad *mv* will not work but could be implemented as well. In addition, a distinct version of *telethon* will display errors because of diffrences in methods implementations. In such way, consider using telethon's 1.24.0 version or search in the documentation to solve the issues created because of the new changes introduced to the library. 
 
 ### Reference
 Davoli, R., Sbaraglia, D. M., Lodi, D. M., & Maffei, R. TgFuseFs: How High School Students Can Write a Filesystem Prototype.
