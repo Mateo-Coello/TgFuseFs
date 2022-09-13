@@ -17,7 +17,7 @@ by Davoli et al. being tested under Ubuntu and this implementation being tested 
 4. Create an empty directory to which the file system will be mounted, for instance: ***mkdir mnt***.
 5. Execute tne script *tgfuse.py* with the directory name created and your phone number as arguments.
    For instance: ***python3 tgfuse.py mnt +524831212891***. Dont close the terminal after executing 
-   the script as this mantains the connection of the client with Telegram's API.
+   the script as this maintains the connection of the client with Telegram's API.
 
 ### Functionalities
 Watch the demo video of the implementation (https://youtu.be/L7njmKKhQvs) to know the functionalities of the file system. Only the commands presented and *cp* are available , the commnad *mv* will not work but could be implemented as well. In addition, a distinct version of *telethon* will display errors because of diffrences in methods implementations. In such way, consider using telethon's 1.24.0 version or search in the documentation to solve the issues created because of the new changes introduced to the library. 
