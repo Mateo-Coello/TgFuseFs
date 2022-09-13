@@ -5,8 +5,8 @@ guide was introduced as a way for students to apply theoretical concepts from an
 The implmentation was made using Python 3.10, pyfuse 3.2.1 (fuse bindings for python), asyncio 3.4.3 (python library for asynchronous
 programming) and, telethon 1.24.0 (Telegram's API for python). The report of this project explains the basic notions of a file system and
 comments on the implementation aspects of the TgFuseFs. The steps to initialize the file system are both presented in the project report
-and in the demo video of the implementation. Recall that this implementation only works for distributions of Linux, with the one developed
-by Davoli et al. being tested under Ubuntu and this implementation being tested under Arch Linux. 
+and in the demo video of the implementation. Recall that this implementation only works for distributions of Linux, with the original one developed
+by Davoli et al. being tested under Ubuntu and this implementation being tested under Arch Linux 5.19.7 and Ubuntu 22.04.1 LTS. 
 
 ### Steps to initialize TgFuseFs
 1. Obtain your **api_id** and **api_hash** for Telegram authentication using the following url: https://core.telegram.org/api/obtaining_api_id
