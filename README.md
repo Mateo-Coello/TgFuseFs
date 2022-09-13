@@ -16,10 +16,11 @@ by Davoli et al. being tested under Ubuntu and this implementation being tested 
    For instance for a mexican phone number the script will be executed as follows: ***python3 mktgfs.py +524831212891***.
 4. Create an empty directory to which the file system will be mounted, for instance: ***mkdir mnt***.
 5. Execute tne script *tgfuse.py* with the directory name created and your phone number as arguments.
-   For instance: ***python3 tgfuse.py mnt +524831212891***
+   For instance: ***python3 tgfuse.py mnt +524831212891***. Dont close the terminal after executing 
+   the script as this mantains the connection of the client with Telegram's API.
 
-Note: Watch the demo video of the implementation to know the functionalities of the file system. Only the commands presented are available,
-commands like *mv* or *cp* could be added but are not ready to use from the beggining.  
+### Functionalities
+Watch the demo video of the implementation (https://youtu.be/L7njmKKhQvs) to know the functionalities of the file system. Only the commands presented and *cp* are available , the commnad *mv* will not work but could be implemented as well.
 
 ### Reference
 Davoli, R., Sbaraglia, D. M., Lodi, D. M., & Maffei, R. TgFuseFs: How High School Students Can Write a Filesystem Prototype.
