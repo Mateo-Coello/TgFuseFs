@@ -20,7 +20,7 @@ by Davoli et al. being tested under Ubuntu and this implementation being tested 
    the script as this maintains the connection of the client with Telegram's API.
 
 ### Functionalities
-Watch the demo video of the implementation (https://youtu.be/L7njmKKhQvs) to know the functionalities of the file system. Only the commands presented and *cp* are available , the commnad *mv* will not work but could be implemented as well. In addition, a distinct version of *telethon* will display errors because of diffrences in methods implementations. In such way, consider using telethon's 1.24.0 version or search in the documentation to solve the issues created because of the new changes introduced to the library. 
+Watch the demo video of the implementation (https://youtu.be/L7njmKKhQvs) to know the functionalities of the file system. Only the commands presented and *cp* are available , the commnad *mv* will not work but could be implemented as well. In addition, a distinct version of *telethon* will display errors because of differences in methods implementations. In such way, consider using telethon's 1.24.0 version or search in the documentation to solve the issues created because of the new changes introduced to the library. 
 
 ### Reference
 Davoli, R., Sbaraglia, D. M., Lodi, D. M., & Maffei, R. TgFuseFs: How High School Students Can Write a Filesystem Prototype.
